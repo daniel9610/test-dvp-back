@@ -20,8 +20,8 @@
 - git clone https://github.com/daniel9610/test-dvp-back.git   // clonar el proyecto
 - composer install                                            // instalar las dependencias
 -  * Crear un archivo con el nombre .env y copiar el contenido del archivo .env.example, cambiar las variables de conexión a la base de datos
-- php artisan key:generate
-- php artisan migrate --seed
+- php artisan key:generate // Crea la aplicación key
+- php artisan migrate --seed // Realiza la migración a la base de datos incluída la creación de usuarios random, en caso de que falle revisar el archivo .env y la conexión a la base de datos
 
 ## End-points disponibles
 
